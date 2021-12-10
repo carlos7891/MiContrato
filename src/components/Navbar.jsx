@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center flex-wrap p-3 bg-indigo-800  ">
-      <a href="/" className="inline-flex items-center p-2 mr-4 ">
+      <a href="/home" className="inline-flex items-center p-2 mr-4 ">
         <span className="text-xl text-white font-bold tracking-wide">
           Mi contrato
         </span>

@@ -58,8 +58,8 @@ export const experiences = [
       title: "MisionTic ",
       description:
         "Estudie programación gracias al gobierno con el programa llamado Misión tic con el apoyo de la universidad de Antioquia donde pude aprender todo lo que se en cuanto a programación (Python, JavaScript, Java, Bases de datos...)",
-      from: 2018,
-      to: 2020,
+      from: 2021,
+      to: '',
       imagen:"misionTic.jpg"
     },
 
