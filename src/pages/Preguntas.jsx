@@ -9,7 +9,7 @@ const Preguntas = () => {
       <div className="flex flex-col items-center w-4/4 md:w-full mb-10">
         <label
           htmlFor="message1"
-          className="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-400"
+          className="text-sm text-gray-900 font-bold block mb-2 dark:text-gray-400"
         >
           1. ¿Para qué son los software de gestión documental?
         </label>
@@ -17,13 +17,13 @@ const Preguntas = () => {
           id="message1"
           rows="4"
           className="bg-gray-50  border-2  border-gray-300 text-gray-900 focus:outline-none focus:shadow-outline focus:border-indigo-500 sm:text-sm rounded-lg  block w-full p-2"
-          defaultValue="La primera necesidad del uso de un software para la gestión documental serial dejar atrás el paradigma del almacenamiento en papel, y crear uno de forma digital y segura. Luego se debe tener en cuenta que tener un almacenamiento local propio supone un gasto en recursos como lo son los servidores y el mantenimiento del mismo además de esto se debe tener en cuenta que la seguridad también estará a cargo de la empresa. Teniendo en cuenta lo anterior existen empresas las cuales brindan este servicio haciéndose cargo de todo el sistema de gestión en una nube la cual se puede acceder desde cualquier lugar, y de la cual su cliente no tendrá que preocuparse."
+          defaultValue="La primera necesidad del uso de un software para la gestión documental seria dejar atrás el paradigma del almacenamiento en papel, y crear uno de forma digital y segura. Luego se debe tener en cuenta que tener un almacenamiento local propio supone un gasto en recursos como lo son los servidores y el mantenimiento del mismo además de esto se debe tener en cuenta que la seguridad también estará a cargo de la empresa. Teniendo en cuenta lo anterior existen compañías las cuales brindan este servicio haciéndose cargo de todo el sistema de gestión en una nube la cual se puede acceder desde cualquier lugar, y de la cual su cliente no tendrá que preocuparse."
         ></textarea>
       </div>
       <div className="flex flex-col items-center w-4/4 md:w-full mb-10">
         <label
           htmlFor="message2"
-          className="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-400"
+          className="text-sm font-bold text-gray-900 block mb-2 dark:text-gray-400"
         >
           2. ¿Qué percibe del proyecto MiContrato?
         </label>
@@ -37,7 +37,7 @@ const Preguntas = () => {
       <div className="flex flex-col items-center w-4/4 md:w-full mb-10">
         <label
           htmlFor="message3"
-          className="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-400"
+          className="text-sm font-bold text-gray-900 block mb-2 dark:text-gray-400"
         >
           3. ¿Qué es una prueba unitaria, que tipos de pruebas se realizan al
           frontend?
@@ -56,7 +56,7 @@ const Preguntas = () => {
       <div className="flex flex-col items-center w-4/4 md:w-full mb-10">
         <label
           htmlFor="message4"
-          className="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-400"
+          className="text-sm font-bold text-gray-900 block mb-2 dark:text-gray-400"
         >
           4. Explicar al menos un método de consumo de servicios rest de forma
           segura.
@@ -65,7 +65,7 @@ const Preguntas = () => {
           id="message4"
           rows="4"
           className="bg-gray-50  border-2  border-gray-300 text-gray-900 focus:outline-none focus:shadow-outline focus:border-indigo-500 sm:text-sm rounded-lg  block w-full p-2"
-          placeholder="Leave a comment..."
+          defaultValue="Con el estándar rest debo garantizar que para cada una de las entidades que tengamos en la base de datos pueda realizar el CRUD que sería crear, leer, actualizar y eliminar. Pero si queremos que nuestro consumo de api sea seguro, podemos usar una autentificación basada en token así cuando se haga una petición de front – back y viceversa hay que asegurarnos que la persona se identifique con sus credenciales lo cual generara un token que se enviara con cada petición y deberá ser corroborado. "
         ></textarea>
       </div>
     </div>

@@ -30,7 +30,7 @@ const Usuarios = () => {
   };
 
   return (
-    <div className="flex flex-col items-center w-9/12 m-auto mt-5">
+    <div className="flex flex-col items-center  w-11/12 md:w-2/3 m-auto mt-5">
       <h2 className="font-bold text-2xl mb-4 text-gray-700 flex">
         Todos los usuarios
       </h2>
@@ -43,7 +43,7 @@ const Usuarios = () => {
                 alt={user.first_name + user.last_name}
                 className="shadow rounded-full max-w-full h-auto align-middle border-none"
               />
-              <div className="p-5">
+              <div className="p-5 text-sm">
                 <h5 className="">
                   Name: {user.first_name}
                 </h5>

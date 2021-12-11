@@ -44,7 +44,7 @@ const Home = () => {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
           {experiences.map(({ title, description, from, to, imagen }, i) => (
-            <div className="mt-5 rounded-lg  bg-gray-100 border-rounded mr-5 shadow-md ">
+            <div  key={i} className="mt-5 rounded-lg  bg-gray-100 border-rounded mr-5 shadow-md ">
               <img className="rounded-t-lg" src={imagen} alt="" />
               <div className="p-2 text-gray-800" key={i}>
                 <h3 className="font-semibold text-lg tracking-tight mb-2">

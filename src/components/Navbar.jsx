@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center flex-wrap p-3 bg-indigo-800  ">
-      <a href="/home" className="inline-flex items-center p-2 mr-4 ">
+      <a href="/" className="inline-flex items-center p-2 mr-4 ">
         <span className="text-xl text-white font-bold tracking-wide">
           Mi contrato
         </span>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
           <NavLink
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center buttonsNavBar hover:text-white "
-            to="/Home"
+            to="/"
           >
             Home
           </NavLink>
